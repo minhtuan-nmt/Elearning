@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập - Edumall</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Đăng nhập -->
+        <div class="form-box login">
+            <h2>Đăng Nhập</h2>
+            <form action="login.php" method="POST">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" name="username_or_email" placeholder="" required>
+                    <label>Tên đăng nhập hoặc Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" name="password" required>
+                    <label>Mật khẩu</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Lưu đăng nhập</label>
+                    <a href="#">Quên mật khẩu?</a>
+                </div>
+                <button type="submit" class="nutdangnhap">Đăng nhập</button>
+            </form>
+                <div class="login-register">
+                    <p>Chưa có tài khoản? <a href="./register.html" class="register-link">Đăng ký</a></p>
+                </div>
+        </div>
+    </div>
+
+</body>
+</html>
